@@ -65,8 +65,8 @@ Create "**hhvm-container/conf.d/php.ini**" file and put below content.
     session.save_handler = files
     session.save_path = /var/lib/hhvm/sessions
     session.gc_maxlifetime = 1440
-    post_max_size = 20M
-    upload_max_filesize = 100M
+    post_max_size = 10M
+    upload_max_filesize = 2M
     set_time_limit = 1800
     log_errors = On
     error_log = /var/log/hhvm/error.log
